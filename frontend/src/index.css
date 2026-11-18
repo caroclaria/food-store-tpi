@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+/*
+ * Paleta pastel de Food Store. Los fondos usan los tonos claros (100-300) y el
+ * texto sobre ellos usa los tonos oscuros (700-900) para mantener el contraste.
+ */
+@theme {
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+
+  /* Neutros cálidos */
+  --color-crema-50: #fffdf9;
+  --color-crema-100: #fbf6ef;
+  --color-crema-200: #f3eadf;
+  --color-crema-300: #e6d9c9;
+  --color-tinta-400: #a89f96;
+  --color-tinta-500: #8a8078;
+  --color-tinta-600: #6b625b;
+  --color-tinta-700: #4f4843;
+  --color-tinta-800: #3b3531;
+  --color-tinta-900: #2b2623;
+
+  /* Rosa: acción principal */
+  --color-rosa-50: #fff5f6;
+  --color-rosa-100: #fde8ec;
+  --color-rosa-200: #f9d2da;
+  --color-rosa-300: #f3b6c3;
+  --color-rosa-400: #ea98aa;
+  --color-rosa-700: #a8566a;
+  --color-rosa-800: #874456;
+
+  /* Menta: éxito, disponible, entregado */
+  --color-menta-50: #f2fbf6;
+  --color-menta-100: #e0f4e9;
+  --color-menta-200: #c3e8d4;
+  --color-menta-300: #9fd8b9;
+  --color-menta-400: #7cc6a0;
+  --color-menta-700: #3e7c5d;
+  --color-menta-800: #2f5f47;
+
+  /* Lavanda: administración */
+  --color-lavanda-50: #f7f4fc;
+  --color-lavanda-100: #ede6f8;
+  --color-lavanda-200: #dcd0f1;
+  --color-lavanda-300: #c6b3e6;
+  --color-lavanda-400: #ad95d8;
+  --color-lavanda-700: #6b559b;
+  --color-lavanda-800: #54437a;
+
+  /* Durazno: en preparación, avisos */
+  --color-durazno-50: #fff7f1;
+  --color-durazno-100: #ffeadb;
+  --color-durazno-200: #ffd5ba;
+  --color-durazno-300: #fdbc92;
+  --color-durazno-700: #a65e30;
+  --color-durazno-800: #84492a;
+
+  /* Limón: pendiente */
+  --color-limon-50: #fffbea;
+  --color-limon-100: #fff6d3;
+  --color-limon-200: #fceba6;
+  --color-limon-300: #f6dc7a;
+  --color-limon-700: #8a6b0f;
+  --color-limon-800: #6b530c;
+
+  /* Cielo: información */
+  --color-cielo-50: #f3f8fc;
+  --color-cielo-100: #e3f0f9;
+  --color-cielo-200: #c8e1f2;
+  --color-cielo-300: #a6cde8;
+  --color-cielo-700: #3d6d8f;
+  --color-cielo-800: #2f5670;
+}
+
+body {
+  @apply bg-crema-100 font-sans text-tinta-800 antialiased;
+}
+
+/* Foco visible y suave en toda la app. */
+:focus-visible {
+  outline: 2px solid var(--color-lavanda-400);
+  outline-offset: 2px;
+}
