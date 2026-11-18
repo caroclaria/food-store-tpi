@@ -3,8 +3,8 @@
 Aplicación web para un negocio de comidas: los clientes recorren el catálogo, arman un carrito y
 confirman pedidos; el administrador gestiona categorías, productos, stock, pedidos y usuarios.
 
-- **Repositorio:**  `https://github.com/caroclaria/food-store-tpi`
-- **Video de demostración:**  `https://youtu.be/KkgJ7LfpwpU`
+- **Repositorio:**  https://github.com/caroclaria/food-store-tpi
+- **Video de demostración:**  https://youtu.be/KkgJ7LfpwpU
 
 | Carpeta | Contenido |
 |---|---|
